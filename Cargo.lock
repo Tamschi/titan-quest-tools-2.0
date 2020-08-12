@@ -138,6 +138,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "raw-seeders"
+version = "0.0.0-dev"
+dependencies = [
+ "serde",
+]
+
+[[package]]
 name = "serde"
 version = "1.0.115"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -200,6 +207,7 @@ name = "serde_titan-quest"
 version = "0.0.0-dev"
 dependencies = [
  "encoding",
+ "raw-seeders",
  "serde",
  "serde-object",
  "serde-seeded",

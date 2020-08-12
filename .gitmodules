@@ -1,3 +1,6 @@
+[submodule "raw-seeders"]
+	path = raw-seeders
+	url = https://github.com/Tamschi/raw-seeders.git
 [submodule "serde_raw"]
 	path = serde_raw
 	url = https://github.com/Tamschi/serde_raw.git
