@@ -1,0 +1,10 @@
+[workspace]
+members = [
+    "*/src/..",
+    "*/*/src/..",
+]
+# members = ["**/src/.."] # This also works (as an alternative), but it's very slow.
+exclude = ["target"]
+
+[profile.release.build-override]
+#opt-level = 0
