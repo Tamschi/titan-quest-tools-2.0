@@ -1,9 +1,9 @@
-[submodule "serde_titan-quest"]
-	path = serde_titan-quest
-	url = https://github.com/Tamschi/titan-quest-tools-2.0.git
 [submodule "serde_raw"]
 	path = serde_raw
 	url = https://github.com/Tamschi/serde_raw.git
+[submodule "serde_titan-quest"]
+	path = serde_titan-quest
+	url = https://github.com/Tamschi/serde_titan-quest.git
 [submodule "serde-seeded"]
 	path = serde-seeded
 	url = https://github.com/Tamschi/serde-seeded.git
