@@ -7,6 +7,9 @@
 [submodule "serde_titan-quest"]
 	path = serde_titan-quest
 	url = https://github.com/Tamschi/serde_titan-quest.git
+[submodule "serde-backtrace"]
+	path = serde-backtrace
+	url = https://github.com/Tamschi/serde-backtrace.git
 [submodule "serde-seeded"]
 	path = serde-seeded
 	url = https://github.com/Tamschi/serde-seeded.git

@@ -237,6 +237,14 @@ dependencies = [
 ]
 
 [[package]]
+name = "serde-backtrace"
+version = "0.0.0-dev"
+dependencies = [
+ "serde",
+ "wyz",
+]
+
+[[package]]
 name = "serde-object"
 version = "0.0.0-alpha.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -294,6 +302,7 @@ dependencies = [
  "enum-ordinalize",
  "raw-seeders",
  "serde",
+ "serde-backtrace",
  "serde-object",
  "serde-seeded",
  "serde_raw",
