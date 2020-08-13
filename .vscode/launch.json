@@ -1,0 +1,124 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in library 'raw-seeders'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--lib",
+                    "--package=raw-seeders"
+                ],
+                "filter": {
+                    "name": "raw-seeders",
+                    "kind": "lib"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in library 'serde-seeded'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--lib",
+                    "--package=serde-seeded"
+                ],
+                "filter": {
+                    "name": "serde-seeded",
+                    "kind": "lib"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in library 'serde_raw'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--lib",
+                    "--package=serde_raw"
+                ],
+                "filter": {
+                    "name": "serde_raw",
+                    "kind": "lib"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in library 'serde_titan-quest'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--lib",
+                    "--package=serde_titan-quest"
+                ],
+                "filter": {
+                    "name": "serde_titan-quest",
+                    "kind": "lib"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug integration test 'arc_de'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--test=arc_de",
+                    "--package=serde_titan-quest"
+                ],
+                "filter": {
+                    "name": "arc_de",
+                    "kind": "test"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug ignored integration test 'arc_de'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--test=arc_de",
+                    "--package=serde_titan-quest"
+                ],
+                "filter": {
+                    "name": "arc_de",
+                    "kind": "test"
+                }
+            },
+            "args": [
+                "--ignored"
+            ],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
