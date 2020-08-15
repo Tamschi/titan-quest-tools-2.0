@@ -1,3 +1,6 @@
+[submodule "fn-t"]
+	path = fn-t
+	url = https://github.com/Tamschi/fn-t.git
 [submodule "raw-seeders"]
 	path = raw-seeders
 	url = https://github.com/Tamschi/raw-seeders.git
