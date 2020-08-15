@@ -239,7 +239,6 @@ dependencies = [
 name = "serde-seeded"
 version = "0.0.0-dev"
 dependencies = [
- "fn-t",
  "serde",
  "serde-seeded_proc-macro-definitions",
 ]
