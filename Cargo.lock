@@ -189,6 +189,7 @@ name = "raw-seeders"
 version = "0.0.0-dev"
 dependencies = [
  "arrayvec",
+ "cast",
  "serde",
  "serde-seeded",
  "wyz",
