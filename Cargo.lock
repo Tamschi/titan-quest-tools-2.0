@@ -115,6 +115,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "erased-serde"
+version = "0.3.12"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "6ca8b296792113e1500fd935ae487be6e00ce318952a6880555554824d6ebf38"
+dependencies = [
+ "serde",
+]
+
+[[package]]
 name = "fn-t"
 version = "0.0.0-dev"
 
@@ -240,6 +249,7 @@ dependencies = [
 name = "serde-seeded"
 version = "0.0.0-dev"
 dependencies = [
+ "erased-serde",
  "serde",
  "serde-seeded_proc-macro-definitions",
 ]
