@@ -364,6 +364,7 @@ dependencies = [
  "cast",
  "encoding",
  "enum-ordinalize",
+ "erased-serde",
  "fn-t",
  "log",
  "miniz_oxide",
